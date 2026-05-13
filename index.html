@@ -26,73 +26,57 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      padding: 20px;
+      padding: 24px;
     }
 
     main {
       width: 100%;
-      max-width: 700px;
+      max-width: 900px;
     }
 
-    h1 {
-      margin: 0 0 18px;
-      font-size: clamp(0.55rem, 0.9vw, 1rem);
+    h1,
+    p,
+    a {
+      font-size: clamp(0.9rem, 1.2vw, 1.1rem);
       font-weight: 400;
-      letter-spacing: 0.18em;
-      line-height: 1.2;
+      letter-spacing: 0.16em;
+      line-height: 1.9;
       text-transform: lowercase;
-    }
-
-    p {
       margin: 0;
-      font-size: clamp(0.32rem, 0.42vw, 0.48rem);
-      letter-spacing: 0.28em;
-      line-height: 1.8;
-      text-transform: lowercase;
-      font-weight: 400;
+      color: #e8e1d4;
+      text-decoration: none;
     }
 
     .coming {
-      margin-top: 10px;
+      margin-top: 8px;
     }
 
     a {
       display: inline-block;
       margin-top: 26px;
-      color: #e8e1d4;
-      text-decoration: none;
-      font-size: clamp(0.32rem, 0.42vw, 0.48rem);
-      letter-spacing: 0.16em;
-      line-height: 1.5;
-      text-transform: lowercase;
-      opacity: 0.9;
+      opacity: 0.92;
     }
 
     a:hover {
-      opacity: 0.65;
+      opacity: 0.7;
     }
 
     @media (max-width: 768px) {
-      h1 {
-        font-size: 0.75rem;
-      }
-
+      h1,
       p,
       a {
-        font-size: 0.5rem;
+        font-size: 0.82rem;
+        letter-spacing: 0.12em;
       }
     }
 
     @media (max-width: 480px) {
-      h1 {
-        font-size: 0.7rem;
-        letter-spacing: 0.12em;
-      }
-
+      h1,
       p,
       a {
-        font-size: 0.46rem;
-        letter-spacing: 0.1em;
+        font-size: 0.74rem;
+        letter-spacing: 0.08em;
+        line-height: 1.8;
       }
     }
   </style>
